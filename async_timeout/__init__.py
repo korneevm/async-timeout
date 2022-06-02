@@ -4,6 +4,7 @@ import sys
 import warnings
 from types import TracebackType
 from typing import Optional, Type
+import requests
 
 
 if sys.version_info >= (3, 8):
