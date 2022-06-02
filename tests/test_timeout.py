@@ -5,7 +5,7 @@ from typing import Any, Callable, List, TypeVar
 
 import pytest
 
-from async_timeout import timeout, timeout_at
+from asyncio_timeout import timeout, timeout_at
 
 
 _Func = TypeVar("_Func", bound=Callable[..., Any])
@@ -271,7 +271,7 @@ async def test_deadline() -> None:
 
 
 @pytest.mark.asyncio
-async def test_async_timeout() -> None:
+async def test_asyncio_timeout() -> None:
     with pytest.raises(asyncio.TimeoutError):
         async with timeout(0.01) as cm:
             await asyncio.sleep(10)

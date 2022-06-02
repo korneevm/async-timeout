@@ -10,7 +10,7 @@ CHANGES
 Misc
 ----
 
-- `#259 <https://github.com/aio-libs/async-timeout/issues/259>`_, `#274 <https://github.com/aio-libs/async-timeout/issues/274>`_
+- `#259 <https://github.com/aio-libs/asyncio-timeout/issues/259>`_, `#274 <https://github.com/aio-libs/asyncio-timeout/issues/274>`_
 
 
 4.0.1 (2121-11-10)
@@ -111,7 +111,7 @@ Misc
 1.1.0 (2016-10-20)
 ==================
 
-* Rename to ``async-timeout``
+* Rename to ``asyncio-timeout``
 
 1.0.0 (2016-09-09)
 ==================

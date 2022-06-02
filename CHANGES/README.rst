@@ -21,7 +21,7 @@ recorded in the Git history rather than a changelog.
 Alright! So how to add a news fragment?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``async-timeout`` uses `towncrier <https://pypi.org/project/towncrier/>`_
+``asyncio-timeout`` uses `towncrier <https://pypi.org/project/towncrier/>`_
 for changelog management.
 To submit a change note about your PR, add a text file into the
 ``CHANGES/`` folder. It should contain an

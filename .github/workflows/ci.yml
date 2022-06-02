@@ -106,9 +106,9 @@ jobs:
       uses: aio-libs/create-release@v1.2.3
       with:
         changes_file: CHANGES.rst
-        name: async-timeout
-        version_file: async_timeout/__init__.py
+        name: asyncio-timeout
+        version_file: asyncio_timeout/__init__.py
         github_token: ${{ secrets.GITHUB_TOKEN }}
         pypi_token: ${{ secrets.PYPI_TOKEN }}
-        fix_issue_regex: '\(`#(\\d+) <https://github.com/aio-libs/async-timeout/issues/\\1>`_\)'
+        fix_issue_regex: '\(`#(\\d+) <https://github.com/aio-libs/asyncio-timeout/issues/\\1>`_\)'
         fix_issue_repl: "(#\\1)"
